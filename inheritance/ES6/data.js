@@ -49,32 +49,18 @@ var emp =[{"id":1,"first_name":"Ricard","last_name":"Gittings","email":"rgitting
 {"id":49,"first_name":"Maurits","last_name":"Ughini","email":"mughini1c@examiner.com"},
 {"id":50,"first_name":"Tarrah","last_name":"Warters","email":"twarters1d@weather.com"}
 ];
- let display=()=>{
+let display=()=>{
+    console.log("test case 123");
     rows="";
-     for(let i=0; i<=emp.lenth-1; i++){
-        rows=rows+
+     for(let i=0; i<=emp.length-1; i++){
+        rows =rows+
         `<tr>
             <td>${emp[i].id} </td>
             <td>${emp[i].first_name} </td>
             <td>${emp[i].last_name} </td>
-            <td>${emp[i].email} </td>
-         </tr>`
+            <td>${emp[1].email} </td>
+        </tr>`
         
     }
-    document.getElementById("Nags").innerHTML=rows;
-
-} 
-
-/* 
-let display=()=>{
-    rows="";
-    for(let i=0; i<=emp.length-1; i++){
-        rows=rows+
-        `<tr>
-            <td>${emp[i].id} </td>
-            <td>${emp[i].name} </td>
-            <td>${emp[i].email} </td>
-        </tr>`;
-    }
-    document.getElementById("Nags").innerHTML=rows;
-} */
+    document.getElementById("sitara").innerHTML=rows;
+}
