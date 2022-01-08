@@ -5,8 +5,16 @@ size.map((size)=>{
 
 })
 console.log(size); */
-let a=[10,20,30,40,]
+
+/* let a=[10,20,30,40,]
 let b=a.map((value)=>{
     return value
 })
-console.log(b);
+console.log(b); */
+
+let employee=[{id:100},{id:101},{id:102}]
+let result = employee.map((emp) => {
+    console.log(emp.id);
+    return emp.id
+})
+console.log(result);
