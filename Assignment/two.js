@@ -10,7 +10,7 @@ b=1;
 result=b;
 var a,b, result;
 for(var i=0; i<=100; i++){
-    document.write(result+"<br/>");
+   // document.write(result+"<br/>");
     result=a+b;
     a=b; 
     
