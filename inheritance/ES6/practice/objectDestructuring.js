@@ -5,6 +5,6 @@ let employee={
     loc:"bangalore"
 }
 let {Name,loc}=employee        // {}  object destructruring       
-console.log(Name);               // we are reading object proprties as a vsrible
+console.log(Name);               // we are reading object proprties as a varible
 console.log(loc);
 //console.log(employee);

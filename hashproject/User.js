@@ -15,7 +15,7 @@ console.log(new_user);
 let result = bcrypt.compareSync 
 (user.password,newPassword);
 if(result){
-    console.log("Login Succefully");
+    console.log("Login Succefully !");
 }else{
     console.log("Login failed");
 }
